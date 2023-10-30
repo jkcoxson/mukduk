@@ -1,0 +1,14 @@
+[package]
+name = "mukduk"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = { version = "0.14.27", features = ["full"] }
+tokio = { version = "1.33.0", features = ["full"] }
+env_logger = { version = "0.10.0" }
+log = { version = "0.4.20" }
+serde = { version = "1.0.190", features = ["derive"] }
+toml = { version = "0.8.6" }
